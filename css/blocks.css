@@ -1,0 +1,136 @@
+body {
+    background-color: burlywood;
+}
+p {
+    text-align: center;
+    font-size: 44px;
+    font: bold;
+    color: aqua;
+    background-color: antiquewhite;
+    display: inline;
+}
+span {
+    border: 2px dashed green;
+}
+ul {
+    background-color: aliceblue;
+}
+ul li {
+    display: inline-block;
+    width: 200px;
+    height: 30px;
+    font-size: 24px;
+    border: 2px dashed darkblue;
+}
+ul li:hover{
+    border: 2px double green;
+    background-color: gray;
+}
+#first {
+    background-color: aqua;
+    width: 200px;
+    height: 200px;
+    font-size: 24px;
+    margin: 20px;
+    border-width: 20px;
+    border-style: dashed ridge dotted double;
+    border-color: yellow black;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+}
+#second {
+    width: 700px;
+    height: 700px;
+    background-color: azure;
+}
+#third, #fourth {
+    width: 500px;
+    height: 200px;
+    background-color: purple;
+    margin: 50px;
+    padding: 50px;
+    font-size: 24px;
+    justify-content: center;
+    align-items: center;
+}
+.d4 {
+
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
+    margin: 20px;
+}
+.d41 {
+    text-align: center;
+    padding: 20px;
+    border: 2px dotted black;
+    background-color: red;
+}
+.d4 p {
+    font-size: 40px;
+    background-color: aqua;
+    color: blueviolet;
+}
+.d5 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
+    margin: 20px;
+}
+.d51 {
+    text-align: center;
+    padding: 20px;
+    border: 4px solid yellow;
+    background-color: black;
+}
+.d52 {
+    text-align: center;
+    padding: 10px;
+    border: 4px solid yellow;
+    background-color: royalblue;
+}
+.d5 p {
+    font-size: 40px;
+    background-color: paleturquoise;
+    color: blueviolet;
+}
+.d6 {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 200px;
+    border: 2px solid black;
+    background-color: white;
+    margin: 20px;
+}
+.d61{
+    text-align: center;
+    padding: 10px;
+    border: 4px double black;
+    background-color: teal;
+}
+.d62 {
+    text-align: center;
+    padding: 10px;
+    border: 6px double black;
+    background-color: thistle;
+}
+.d63 {
+    text-align: center;
+    padding: 10px;
+    border: 8px double black;
+    background-color: tomato;
+}
+.d6 p {
+    font-size: 40px;
+    background-color: green;
+    color: blueviolet;
+}
